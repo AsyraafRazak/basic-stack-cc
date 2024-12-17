@@ -32,15 +32,15 @@
                     </div>
                     <div class="form-group">
                         <label for="current">Current (A)</label>
-                        <input type="number" step="any" class="form-control" id="current" name="current" value="<?php echo htmlspecialchars($voltage); ?>" required>
+                        <input type="number" step="any" class="form-control" id="current" name="current" value="<?php echo htmlspecialchars($current); ?>" required>
                     </div>
                     <div class="form-group">
                         <label for="hours">Usage Time (Hours)</label>
-                        <input type="number" step="any" class="form-control" id="hours" name="hours" value="<?php echo htmlspecialchars($voltage); ?>" required>
+                        <input type="number" step="any" class="form-control" id="hours" name="hours" value="<?php echo htmlspecialchars($hours); ?>">
                     </div>
                     <div class="form-group">
                         <label for="rate">Rate (per kWh in cents)</label>
-                        <input type="number" step="any" class="form-control" id="rate" name="rate" value="<?php echo htmlspecialchars($voltage); ?>" required>
+                        <input type="number" step="any" class="form-control" id="rate" name="rate" value="<?php echo htmlspecialchars($rate); ?>" required>
                     </div>
 
                     <div class="text-center">

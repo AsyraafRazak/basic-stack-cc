@@ -1,0 +1,28 @@
+/*------------------------------
+Table of Programme
+--------------------------------*/
+
+.table1 {
+    border-collapse: collapse;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0.25), 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.table1 th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.table1 td {
+    text-align: left;
+    padding: 5px;
+    background-color: #f7f7f7;
+    border-bottom: 2px dotted #525252;
+    color: black;
+}
+
+.nobull {
+    list-style-type: none;
+}
